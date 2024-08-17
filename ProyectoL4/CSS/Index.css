@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+}
+
+.body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+.Espacio {
+    padding: 10px;
+    background-color: pink;
+}
+
+.header {
+    padding: 140px;
+    background-image: url(../img/banner.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.nav {
+    padding: 20px;
+    text-align: center;
+    background-color: pink;
+}
+
+.nav a{
+    padding: 20px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size:18px;
+    color: black;
+    
+}
+
+.nav a:hover{
+    padding: 20px;
+    background-color: white;
+    color: black;
+}
+
+h2 {
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    color:rgb(139, 64, 76);
+    font-size: 30px;
+}
+
+.row {
+    padding: 2px;
+    flex-wrap:wrap;
+}
+
+.especiales {
+    flex-wrap: wrap;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    padding: 20px;
+}
+
+.contenedor img {
+    padding: 20px;
+    width: 400px; 
+    height: auto;
+    border-radius: 20%; 
+    transition: transform 0.3s ease;
+}
+
+.contenedor img:hover {
+        transform: scale(1.1);
+}
+
+.Especiales {
+    text-align: center;
+    font-size: 20px;
+
+}
+
+
+button {
+    font-size: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;
+    background-color: palevioletred;
+    color:black
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+.texto {
+    padding: 35px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.local {
+    padding: 150px;
+    background-image: url(/img/local2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.footer {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(248, 217, 222);
+    
+}
+
+.integrantes {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+

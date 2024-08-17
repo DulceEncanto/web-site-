@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    <link rel="icon" href="img/logo.jpg" type="Image/png" sizes="16x16">
+    <link rel="stylesheet" href="/CSS/Contacto.css">
+    <link rel="stylesheet" href="CSS/Index.css">
+    <link rel="stylesheet" href="CSS/normalizacion.css">
+</head>
+<body>
+    <div class="Espacio">
+        <p></p>
+    </div>
+    <header class="header">
+        <p></p>
+    </header>
+    <nav class="nav">
+        <a href="Index.html">Principal</a>
+        <a href="Sobre Nosotros.html">Sobre Nosotros</a>
+        <a href="Promociones.html">Promociones</a>
+        <a href="Pasteles.html">Pasteles</a>
+        <a href="cupcakes.html">Cupcakes</a>
+        <a href="Contactanos.html">Contactanos</a>
+        <a href="Integrantes.html">Integrantes</a>
+    </nav>
+    <h2>Formulario de Contacto</h2>
+
+    <form action="/enviar_formulario" method="POST">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="email">Correo Electrónico:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="telefono">Teléfono:</label><br>
+        <input type="tel" id="telefono" name="telefono"><br><br>
+
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+<p></p>
+<footer class="footer">
+    <h1>Dulce Encanto- Derechos Reservados 2024</h1>
+    </footer>
+</html>
